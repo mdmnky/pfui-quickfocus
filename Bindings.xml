@@ -1,0 +1,8 @@
+<Bindings>
+	<Binding name="QUICKFOCUS_SET" header="QUICKFOCUS">
+		QuickFocus_Set();
+	</Binding>
+	<Binding name="QUICKFOCUS_TARGET">
+		QuickFocus_Target();
+	</Binding>
+</Bindings>
