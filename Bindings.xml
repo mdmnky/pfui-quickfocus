@@ -5,4 +5,7 @@
 	<Binding name="QUICKFOCUS_TARGET">
 		QuickFocus_Target();
 	</Binding>
+		<Binding name="fassist">
+		fassist();
+	</Binding>
 </Bindings>
