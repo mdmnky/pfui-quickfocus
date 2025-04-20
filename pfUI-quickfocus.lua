@@ -1,7 +1,7 @@
 BINDING_HEADER_QUICKFOCUS = "QuickFocus"
 BINDING_NAME_QUICKFOCUS_SET = "Set Focus"
 BINDING_NAME_QUICKFOCUS_TARGET = "Target Focus"
-BINDING_NAME_FASSIST = "fassist"
+BINDING_NAME_QUICKFOCUS_ASSIST = "Assist Focus"
 
 function QuickFocus_Set()
   if not pfUI.uf or not pfUI.uf.focus then return end
@@ -22,7 +22,7 @@ function QuickFocus_Target()
   end
 end
 
-function fassist()
+function QuickFocus_Assist()
   if pfUI.uf and pfUI.uf.focus then
     if pfUI.uf.focus.unitname then
       TargetByName(pfUI.uf.focus.unitname, true)
