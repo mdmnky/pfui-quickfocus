@@ -1,4 +1,4 @@
 ## Interface: 11200
 ## Title: |cff33ffccpf|cffffffffUI|cffaaaaaa [QuickFocus]
-## Notes: Provides hotkeys to set and target a focused unit.
+## Notes: Provides key binds for focused units.
 pfUI-quickfocus.lua
