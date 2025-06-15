@@ -5,12 +5,10 @@ BINDING_NAME_QUICKFOCUS_ASSIST = "Assist Focus"
 
 function QuickFocus_Set()
   if not pfUI.uf or not pfUI.uf.focus then return end
-
   if UnitName("target") then
-    pfUI.uf.focus.unitname = strlower(UnitName("target"))
+    SlashCmdList.PFFOCUS()
   else
-    pfUI.uf.focus.unitname = nil
-    pfUI.uf.focus.label = nil
+    SlashCmdList.PFCLEARFOCUS()
   end
 end
 
